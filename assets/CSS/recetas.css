@@ -1,0 +1,138 @@
+/* assets/CSS/recetas.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF3E0; /* Color de fondo principal */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD54F; /* Amarillo */
+    color: #333;
+    padding: 3em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2em;
+}
+
+header ul li {
+    margin: 0;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header ul li a:hover {
+    background-color: #FFCC80; /* Amarillo Claro */
+    color: #333;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    color: #FFA726; /* Naranja */
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+form input[type="text"] {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 0.75em 1em;
+    background-color: #FFA726; /* Naranja */
+    color: white;
+    border: 1px solid #FFA726;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+form button:hover {
+    background-color: #FFCC80; /* Amarillo Claro */
+    border-color: #FFCC80;
+}
+
+.recetas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.receta-item {
+    background-color: #FFFDE7; /* Amarillo Claro */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.receta-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.receta-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #FFA726; /* Naranja */
+}
+
+.receta-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.receta-item a:hover h2 {
+    color: #FFCC80; /* Amarillo Claro */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #FFA726; /* Naranja */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

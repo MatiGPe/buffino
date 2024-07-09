@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF3E0; /* Fondo general */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #FFA726; /* Naranja */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+nav .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FFCC80; /* Amarillo Claro */
+}
+
+header {
+    text-align: center;
+    background-color: #FFD54F; /* Amarillo */
+    color: #333;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recetas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.receta-item {
+    background-color: #FFFDE7; /* Amarillo Claro */
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 2em);
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.receta-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.receta-item h2 {
+    color: #FFA726; /* Naranja */
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #FF7043; /* Rojo Naranja */
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #FF5722; /* Rojo Naranja más oscuro */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #FFA726; /* Naranja */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #FFA726; /* Naranja */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
